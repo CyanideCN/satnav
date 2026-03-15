@@ -4,6 +4,7 @@ use rayon::prelude::*;
 
 pub mod gms_nav;
 pub mod goes_nav;
+mod math3d;
 
 use gms_nav::GMSNavigation;
 use goes_nav::GOESNavigation;
